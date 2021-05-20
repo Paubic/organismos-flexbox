@@ -1,0 +1,17 @@
+/*Colores*/
+/* **** */
+
+:root{
+    --colorcontenedor: #ffff;
+    --colorfooter: #2385E0;
+}
+
+.contenedor{
+
+    background-color: var(--colorcontenedor);
+
+}
+
+.footer{
+    background-color: var(--colorfooter);
+}
