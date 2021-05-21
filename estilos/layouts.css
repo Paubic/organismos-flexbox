@@ -12,13 +12,10 @@ body {
 
 .contenedor{
 
-    height: 1024px;
+   
     width: 1440px;
     background-color: white;
    
-    
-
-
 }
 
 /* HEADER */
@@ -27,14 +24,13 @@ header{
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-bottom: 20px;
-    background-color: tomato;
-    
-    
+    justify-content: center;      
 }
 
 main{
+
+height: 100vw;
+
 
     
 }
@@ -42,21 +38,41 @@ main{
 /*ZigZag*/
 .zonainferior{
 
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   flex-direction: row-reverse;
+
+
 }
 .zonainferior__imagen{
 
+   
+    
 }
 .zonainferior__texto{
+
+padding: 10px;
 
 }
 .zonasuperior{
 
+    display: flex;
+   align-items: center;
+   padding: 20px;
+   
+   
+
 }
 .zonasuperior__imagen{
+
+
 
 }
 .zonasuperior__texto{
 
+    display: flex;
+    padding: 10px;
 }
 
 /*Header*/
@@ -69,15 +85,9 @@ main{
 .menuPrincipal{
 
     display: flex;
-    flex-grow: 0.60;
-    display: flex;
-    flex-basis: 80%;
-    justify-content:space-around;
+    flex-grow: 1;
     align-items:center;
-   
-
-
-    
+    justify-content:space-around;
     
 }
 .menuPrincipal__contactar{
@@ -95,17 +105,22 @@ main{
 
 /*Banner*/
 
+.banner{
+
+    display: flex;
+    justify-content: center;
+}
+
 
 /*Footer*/
 
 footer{
 
     display: flex;
+    padding: 20px;
+    justify-content: end;
+    height: 300px;
     justify-content: flex-start;
-    align-items: flex-end;
-    width: 100%;
-    height: 100%;
-    
     
 }
 
@@ -113,6 +128,11 @@ footer{
 
 .acercade{
 
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+    
 
 }
 .legal__avisoslegales{
@@ -135,7 +155,10 @@ footer{
 
 .terminos{
     
+    display: flex;
+    padding: 20px;
     
+    flex-direction: column;
 
 }
 .terminos__avisoslegales{
@@ -158,7 +181,9 @@ footer{
 
 .social{
 
-    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 
 }
 .social__facebook{
@@ -175,14 +200,18 @@ footer{
 }
 .terminos{
 
+
+
 }
 
 .copyright{
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
     align-items: flex-end;
+
+    
+   
 
 }
 

@@ -4,6 +4,8 @@
 :root{
     --colorcontenedor: #ffff;
     --colorfooter: #2385E0;
+    --colorheader:#F8F8F8;
+    --colorultexto: #ffff
 }
 
 .contenedor{
@@ -14,4 +16,20 @@
 
 .footer{
     background-color: var(--colorfooter);
+    
+}
+
+ul{
+
+    color: var(--colorultexto);
+}
+
+h6{
+
+    color: var(--colorultexto);
+}
+
+header{
+
+    background-color: var(--colorheader);
 }
