@@ -2,6 +2,13 @@
 
 /* **** */
 
+@font-face{
+
+    font-family: ;
+    src: url;
+    
+}
+
 p{
 
     font-size: 21px;
@@ -16,3 +23,7 @@ a{
     font-family: sans-serif;
 }
     
+.footer{
+
+    font-size: 18px;
+}

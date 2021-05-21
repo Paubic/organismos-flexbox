@@ -116,12 +116,19 @@ padding: 10px;
 
 footer{
 
-    display: flex;
+   
     padding: 20px;
     justify-content: end;
     height: 300px;
-    justify-content: flex-start;
     
+    
+}
+
+.links{
+    display: flex;
+   
+    
+
 }
 
 /*Legal*/
@@ -130,7 +137,7 @@ footer{
 
     display: flex;
     flex-direction: column;
-    
+    flex-grow: 2;
     padding: 20px;
     
 
@@ -157,7 +164,7 @@ footer{
     
     display: flex;
     padding: 20px;
-    
+    flex-grow: 1;
     flex-direction: column;
 
 }
@@ -184,6 +191,7 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    flex-grow: 0,2;
 
 }
 .social__facebook{
@@ -207,11 +215,8 @@ footer{
 .copyright{
 
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: center;
 
-    
-   
 
 }
 
